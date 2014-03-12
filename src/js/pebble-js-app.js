@@ -2,7 +2,7 @@ var tmbHash = -1;
 
 function updateTmbHash(callback){
 	var req = new XMLHttpRequest();
-	req.open('GET', 'https://pool.trademybit.com/api/hashinfo?key=d0874726aad832958ce84a5f0e51df07e6b4111513546f1db404f1503d51f334', true);
+	req.open('GET', 'https://pool.trademybit.com/api/hashinfo?key=TMB_API_KEY_HERE', true);
 	req.onload = function(e){
 		if (req.readyState == 4 && req.status == 200) {
 			var response = JSON.parse(req.responseText);
