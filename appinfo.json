@@ -1,0 +1,44 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "2fd72c58-d66c-4144-aea6-81e1aaaa8b26",
+    "appKeys": {},
+    "longName": "TMB Hash Rate Monitor",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "TMBhash",
+    "companyName": "OSUBrew",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "png",
+                "name": "TMB_IMG",
+                "file": "images/TMB.png"
+            },
+            {
+                "type": "font",
+                "name": "proto_14",
+                "file": "fonts/Prototype.ttf"
+            },
+            {
+                "type": "font",
+                "name": "proto_18",
+                "file": "fonts/Prototype.ttf"
+            },
+            {
+                "type": "font",
+                "name": "proto_24",
+                "file": "fonts/Prototype.ttf"
+            },
+            {
+                "type": "font",
+                "name": "proto_26",
+                "file": "fonts/Prototype.ttf"
+            }
+        ]
+    }
+}
